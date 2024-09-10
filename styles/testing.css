@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  /*outline: auto;*/
+}
+body {
+  width: auto;
+  margin: auto;
+}
+.header-container {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.company-name {
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  gap: 40px;
+  font-size: 15px;
+  align-content: baseline;
+  padding: 10px;
+}
+.sign-up-button1{
+  color: white;
+}
+.home-button:hover,
+.sign-up-button1:hover,
+.login-button:hover {
+  background-color: #3b86ff;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  border: #3b86ff solid;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-text-container {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.main-text {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+}
+.sign-up-button {
+  background-color: #3b86ff;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  border: #3b86ff solid;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.company-logo {
+  background-color: white;
+  margin-left: 300px;
+}
+.profile-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 20px;
+}
+.profiles {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 50px;
+}
+.director-profile,
+.president-profile,
+.vice-president-profile,
+.manager-profile {
+  text-align: center;
+  flex: 1 1 0;
+}
+img {
+  border-radius: 10px;
+}
+.quote-section {
+  text-align: start;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f2937;
+  color: white;
+  outline: auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote {
+  margin: 50px auto;
+  padding: 10px;
+  font-style: italic;
+  width: max-content;
+  font-size: 18px;
+  font-weight: light;
+}
+.quoted {
+  width: max-content;
+  margin: 0 auto;
+  text-align: right;
+}
+.call-to-action-container {
+  background-color: white;
+  height: 200px;
+  color: white;
+}
+.call-to-action {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  gap: 200px;
+  background-color: #3b86ff;
+  width: fit-content;
+  margin: 50px auto;
+  border-radius: 25px;
+}
+.call-to-action-button {
+  background-color: #3b86ff;
+  color: #f9faf8;
+  padding: 10px 40px;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 20px;
+  color: white;
+}
+
+/*Login form css*/
+.form-container{
+  background-color: #1f2937;
+  color: black;
+  text-align: center;
+  height: 999px;
+  display: flex;
+  align-items: center;
+  
+}
+.signup-form {
+  margin: auto;
+  width: 300px;
+  height: max-content;
+  padding: 20px;
+  background-color: #f9faf8;
+  border-radius: 20px;
+  border: solid white 1px;
+  box-shadow: 0 0 10px white;
+}
+input{
+  color: black;
+  border: solid black 1px;
+  
+  padding: 10px;
+  border-radius: 10px;
+}
+#submit{
+  background-color: #3b86ff;
+  color: white;
+}
+#submit:hover{
+  text-decoration: underline;
+}
